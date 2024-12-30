@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.intro {
+  background: #23424A;
+  color: white;
+  font-family: "Roboto";
+  padding: 50px 0; 
+}
+
+.container {
+  background: #23424A;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 750px;
+}
+
+.intro-content {
+  width: 70%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+p {
+  font-size: 21px;
+  margin: 16px 0 32px;
+}
+
+button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 21px;
+  background: #38CFD9;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 24px;
+}
+
